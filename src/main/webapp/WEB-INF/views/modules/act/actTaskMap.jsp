@@ -1,9 +1,9 @@
 <%@page import="java.io.InputStream"%>
-<%@page import="org.activiti.engine.impl.*"%>
-<%@page import="org.activiti.engine.impl.pvm.*"%>
-<%@page import="org.activiti.engine.impl.pvm.process.*"%>
-<%@page import="org.activiti.engine.repository.*"%>
-<%@page import="org.activiti.engine.*"%>
+<%-- <%@page import="org.activiti.engine.impl.*"%> --%>
+<%-- <%@page import="org.activiti.engine.impl.pvm.*"%> --%>
+<%-- <%@page import="org.activiti.engine.impl.pvm.process.*"%> --%>
+<%-- <%@page import="org.activiti.engine.repository.*"%> --%>
+<%-- <%@page import="org.activiti.engine.*"%> --%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%@ include file="/WEB-INF/views/include/taglib.jsp"%>
 <!DOCTYPE html>

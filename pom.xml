@@ -254,18 +254,18 @@
 			<version>${mysql.driver.version}</version>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc14</artifactId>
-			<version>${oracle.driver.version}</version>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>net.sourceforge.jtds</groupId>
-			<artifactId>jtds</artifactId>
-			<version>${mssql.driver.version}</version>
-			<scope>runtime</scope>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.oracle</groupId> -->
+<!-- 			<artifactId>ojdbc14</artifactId> -->
+<!-- 			<version>${oracle.driver.version}</version> -->
+<!-- 			<scope>runtime</scope> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>net.sourceforge.jtds</groupId> -->
+<!-- 			<artifactId>jtds</artifactId> -->
+<!-- 			<version>${mssql.driver.version}</version> -->
+<!-- 			<scope>runtime</scope> -->
+<!-- 		</dependency> -->
 		<!-- PERSISTENCE end -->
 		
 		<!-- WEB begin -->
@@ -378,54 +378,6 @@
 			<version>${shiro.version}</version>
 		</dependency>
 		<!-- SECURITY end -->
-		
-		<!-- Activiti -->
-		<dependency>
-			<groupId>org.activiti</groupId>
-			<artifactId>activiti-engine</artifactId>
-			<version>${activiti.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.activiti</groupId>
-			<artifactId>activiti-spring</artifactId>
-			<version>${activiti.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.activiti</groupId>
-			<artifactId>activiti-explorer</artifactId>
-			<version>${activiti.version}</version>
-			<exclusions>
-				<exclusion>
-					<artifactId>vaadin</artifactId>
-					<groupId>com.vaadin</groupId>
-				</exclusion>
-				<exclusion>
-					<artifactId>dcharts-widget</artifactId>
-					<groupId>org.vaadin.addons</groupId>
-				</exclusion>
-				<exclusion>
-					<artifactId>activiti-simple-workflow</artifactId>
-					<groupId>org.activiti</groupId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>org.activiti</groupId>
-			<artifactId>activiti-modeler</artifactId>
-            <version>${activiti.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.activiti</groupId>
-			<artifactId>activiti-diagram-rest</artifactId>
-			<version>${activiti.version}</version>
-		</dependency>
-		
-		<!-- 支持activiti缓存 -->
-		<!-- <dependency>
-			<groupId>org.infinispan</groupId>
-			<artifactId>infinispan-core</artifactId>
-			<version>5.1.7.Final</version>
-		</dependency> -->
 		
 		<!-- LOGGING begin -->
 		<dependency>
